@@ -1,2 +1,11 @@
-<a routerLink='/home/logged-in' routerLinkActive='active-link'>Login</a>
-<a routerLink='/home/logged-out' routerLinkActive='active-link'>Logout</a>
+<div class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" (click)="getRandom()" class="navbar-brand">Face Off</a>
+        </div>
+        <ul class="nav navbar-nav pull-right">
+            <li> <a routerLink='/home/logged-in' routerLinkActive='active-link'>Login</a> </li>
+            <li> <a routerLink='/home/logged-out' routerLinkActive='active-link'>Logout</a> </li>
+        </ul>
+    </div>
+</div>

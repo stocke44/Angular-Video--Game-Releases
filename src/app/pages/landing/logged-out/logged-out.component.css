@@ -1,0 +1,21 @@
+.games{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 100px;
+
+}
+
+.games div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #fe0016;
+    border: 1px solid #727272 ;
+    border-radius: 5px;
+}
+
+.games div img{
+    max-width: 100%;
+    margin-bottom: 50px;
+}
